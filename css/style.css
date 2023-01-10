@@ -1,0 +1,150 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: #dee2e6;
+}
+
+header {
+    background-color: #495057;
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 100px 20px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.menu-header{
+    color: white;
+    display: flex;
+    width: 300px;
+    height: 100%;
+    font-size: 20px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.menu-item {
+    cursor: pointer;
+
+}
+.menu-item:hover:after {
+    display: flex;
+    content: "";
+    width: 100%;
+    height: 4px;
+    background-color: white;
+    margin-top: 5px;
+}
+
+
+.logo-header {
+    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(288deg) brightness(102%) contrast(102%);
+    max-width: 120px;
+}
+
+.divisor {
+    width: 100%;
+    height: 100px;
+    background-color: #495057;
+}
+
+.dashboards {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: -60px;
+}
+
+.dashboard-item {
+    display: flex;
+    flex-direction: column;
+    background-color: #adb5bd;
+    width: 300px;
+    height: 100px;
+    border-radius: 5px;
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+}
+
+.last-dashboard-item {
+    background-color: #212529;
+}
+
+.dashboard-tittle {
+    display: flex;
+    justify-content: space-between;
+}
+
+.dashboard-value {
+    display: flex;
+    flex: 1;
+    align-items: self-end;
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.table-wrapper {
+    display: flex;
+    justify-content: center;
+    padding-top: 60px;
+    padding-left: 120px;
+    padding-right: 120px;
+}
+
+.table-header-left {
+    display: flex;
+    width: 60%;
+    font-size: 20px;
+    justify-content: space-between;
+}
+
+.table-header-right {
+    display: flex;
+    width: 100%;
+    font-size: 20px;
+    justify-content: space-around;
+}
+
+.sub-table-wrapper {
+    display: flex;
+    justify-content: center;
+    padding-top: 60px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.sub-table-header-left {
+    display: flex;
+    width: 60%;
+    font-size: 18px;
+    justify-content: space-between;
+    background-color: #adb5bd;
+    padding: 20px;
+    border-radius: 5px 0 0 5px;    
+}
+
+.sub-table-header-right {
+    display: flex;
+    width: 100%;
+    font-size: 18px;
+    justify-content: space-around;
+    background-color: #adb5bd;
+    padding: 20px;
+    border-radius: 0 5px 5px 0;
+}
+
+.pt-20 {
+    padding-top: 20px;
+}
+
+.green-color {
+    color: green;
+}
+
+.red-color {
+    color: rgba(158, 12, 12, 0.744);
+}
