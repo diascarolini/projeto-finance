@@ -7,6 +7,8 @@ A mesma pode ser usada desde controle de finanças de uma família, até o contr
 
 - Melhorar skills sobre Front-end, como aplicar os estilos através das classes.
 
+![Getting Started](./doc/Projeto%20Finance.png)
+
 ### :robot: Tecnologias
 
 ![Badge](https://img.shields.io/badge/HTML--%236DB33F?style=for-the-badge&logo=html5&color=E34F26) ![Badge](https://img.shields.io/badge/css--%236DB33F?style=for-the-badge&logo=css3&color=1572B6)
